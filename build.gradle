@@ -1,0 +1,29 @@
+plugins{
+    id "java"
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+group 'burp'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+
+repositories {
+    maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile('net.portswigger.burp.extender:burp-extender-api:2.1')
+    compile('com.intellij:forms_rt:7.0.3')
+    compile('com.unboundid:unboundid-ldapsdk:5.1.0')
+    compile files('libs/ysoserial-0.0.6-SNAPSHOT-all.jar')
+    compile group: 'org.apache.shiro', name: 'shiro-all', version: '1.4.2'
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.9.0'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+
+}
