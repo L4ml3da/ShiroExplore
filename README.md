@@ -42,7 +42,7 @@
 
 如果漏洞存在，日志中将显示有效的Key值
 
-![image-20201210160905621](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/2.![image-20201210155925966](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/2.png)
+![image-20201210160905621](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/2.png)
 
 
 
@@ -50,7 +50,7 @@
 
 必须的配置如下图，由于目前暂未支持检索正确的Gadget，请自行尝试可能的Gadget
 
-![image-20201210161339554](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/3.![image-20201210155925966](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/3.png)
+![image-20201210161339554](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/3.png)
 
 
 
@@ -58,7 +58,7 @@
 
 下图必填项，其中Model 为 SearchTomcatEchoGadget ，如果成功日志中将显示有效的EchoGadget
 
-![image-20201210161924701](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/4.![image-20201210155925966](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/4.png)
+![image-20201210161924701](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/4.png)
 
 
 
@@ -66,13 +66,13 @@
 
 根据上述搜索到的回显Gadget进行下面的配置，Go以后TomcatEcho栏将会打印回显信息
 
-![image-20201210162312121](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/5.![image-20201210155925966](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/5.png)
+![image-20201210162312121](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/5.png)
 
 ### Shell 反弹
 
 如下配置，shell地址以ip:port形式给出，目前只支持Linux系统反弹
 
-![image-20201210162540128](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/6.![image-20201210155925966](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/6.png)
+![image-20201210162540128](https://github.com/L4ml3da/ShiroExplore/blob/main/ReadMe/6.png)
 
 
 
